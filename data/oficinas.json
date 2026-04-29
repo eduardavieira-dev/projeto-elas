@@ -1,0 +1,99 @@
+[
+  {
+    "id": "oficina-c-1",
+    "title": "Introdução à Linguagem C",
+    "date": "30 de setembro de 2025",
+    "location": "Escola Estadual Ordem e Progresso",
+    "description": "Esta oficina apresenta os fundamentos da linguagem C de forma simples, prática e acessível para iniciantes. A atividade começa com um breve contexto histórico sobre sua criação e sua importância no desenvolvimento de sistemas como o UNIX e na base de diversas linguagens modernas. As participantes aprendem como um código em C é interpretado pelo compilador, compreendendo o fluxo de execução linha por linha. Durante a oficina, são introduzidos conceitos essenciais da lógica de programação, como algoritmos, variáveis, tipos de dados, entrada e saída de informações, operadores e estruturas condicionais. Cada conceito é acompanhado de exemplos práticos e exercícios curtos para facilitar o aprendizado, incluindo o uso de compiladores online. A proposta é tornar a primeira experiência com programação mais leve, intuitiva e conectada ao uso real da linguagem.",
+    "objective": "O objetivo geral da oficina é proporcionar o primeiro contato com a linguagem C, permitindo que as participantes compreendam sua lógica, estrutura e aplicações básicas. Os objetivos específicos incluem apresentar o funcionamento de um compilador e o processo de tradução do código; ensinar o conceito de algoritmo por meio de exemplos do cotidiano; trabalhar a declaração e o uso de variáveis e tipos de dados; praticar operações básicas com entrada e saída usando *printf()* e *scanf()*; introduzir operadores aritméticos e lógicos; e demonstrar o uso da estrutura condicional *if else* na tomada de decisões dentro do programa. Ao final, espera-se que as participantes sejam capazes de escrever pequenos programas em C, interpretar erros simples e compreender a lógica essencial por trás da linguagem.",
+    "responsibles": [
+      "Marcella Santos Belchior",
+      "Rayssa Mell de Souza Silva",
+      "Letícia Duarte"
+    ],
+    "categories": ["Histórico da linguagem C", "Compilador", "C", "Algoritmos"],
+    "cover": "https://res.cloudinary.com/dxwbd9xhy/image/upload/q_auto/f_auto/v1777308113/LinguagemC-2025_2-Equipe-2_jlftch.jpg",
+    "images": [
+      "https://res.cloudinary.com/dxwbd9xhy/image/upload/q_auto/f_auto/v1777308113/LinguagemC-2025_2-Equipe-2_jlftch.jpg",
+      "https://res.cloudinary.com/dxwbd9xhy/image/upload/q_auto/f_auto/v1777308116/LinguagemC-2025_2-Turma-2_eqrdag.jpg",
+      "https://res.cloudinary.com/dxwbd9xhy/image/upload/q_auto/f_auto/v1777308120/LinguagemC-2025_2-Marcella-2_g2vc2y.jpg"
+    ]
+  },
+  {
+    "id": "oficina-c-2",
+    "title": "Introdução à Linguagem C",
+    "date": "29 de setembro de 2025",
+    "location": "Escola Estadual Ordem e Progresso",
+    "description": "Esta oficina apresenta os fundamentos da linguagem C de forma simples, prática e acessível para iniciantes. A atividade começa com um breve contexto histórico sobre sua criação e sua importância no desenvolvimento de sistemas como o UNIX e na base de diversas linguagens modernas. As participantes aprendem como um código em C é interpretado pelo compilador, compreendendo o fluxo de execução linha por linha. Durante a oficina, são introduzidos conceitos essenciais da lógica de programação, como algoritmos, variáveis, tipos de dados, entrada e saída de informações, operadores e estruturas condicionais. Cada conceito é acompanhado de exemplos práticos e exercícios curtos para facilitar o aprendizado, incluindo o uso de compiladores online. A proposta é tornar a primeira experiência com programação mais leve, intuitiva e conectada ao uso real da linguagem.",
+    "objective": "O objetivo geral da oficina é proporcionar o primeiro contato com a linguagem C, permitindo que as participantes compreendam sua lógica, estrutura e aplicações básicas. Os objetivos específicos incluem apresentar o funcionamento de um compilador e o processo de tradução do código; ensinar o conceito de algoritmo por meio de exemplos do cotidiano; trabalhar a declaração e o uso de variáveis e tipos de dados; praticar operações básicas com entrada e saída usando *printf()* e *scanf()*; introduzir operadores aritméticos e lógicos; e demonstrar o uso da estrutura condicional *if else* na tomada de decisões dentro do programa. Ao final, espera-se que as participantes sejam capazes de escrever pequenos programas em C, interpretar erros simples e compreender a lógica essencial por trás da linguagem.",
+    "responsibles": [
+      "Bruna Furtado da Fonseca",
+      "Bruna Luiza Noely De Marco",
+      "Lívia Câmara Xavier"
+    ],
+    "categories": ["Histórico da linguagem C", "Compilador", "C", "Algoritmos"],
+     "cover": "https://res.cloudinary.com/dxwbd9xhy/image/upload/q_auto/f_auto/v1777307710/LinguagemC-2025_2-1_rottq1.jpg",
+    "images": [
+      "https://res.cloudinary.com/dxwbd9xhy/image/upload/q_auto/f_auto/v1777307710/LinguagemC-2025_2-Equipe-1_ncetuu.jpg",
+      "https://res.cloudinary.com/dxwbd9xhy/image/upload/q_auto/f_auto/v1777307710/LinguagemC-2025_2-Turma-1_jgzxgo.jpg",
+      "https://res.cloudinary.com/dxwbd9xhy/image/upload/q_auto/f_auto/v1777307710/LinguagemC-2025_2-1_rottq1.jpg"
+    ]
+  },
+  {
+    "id": "oficina-c-3",
+    "title": "Introdução à Linguagem C",
+    "date": "20 de março de 2025",
+    "location": "Escola do Sebrae",
+    "description": "Esta oficina apresenta os fundamentos da linguagem C de forma simples, prática e acessível para iniciantes. A atividade começa com um breve contexto histórico sobre sua criação e sua importância no desenvolvimento de sistemas como o UNIX e na base de diversas linguagens modernas. As participantes aprendem como um código em C é interpretado pelo compilador, compreendendo o fluxo de execução linha por linha. Durante a oficina, são introduzidos conceitos essenciais da lógica de programação, como algoritmos, variáveis, tipos de dados, entrada e saída de informações, operadores e estruturas condicionais. Cada conceito é acompanhado de exemplos práticos e exercícios curtos para facilitar o aprendizado, incluindo o uso de compiladores online. A proposta é tornar a primeira experiência com programação mais leve, intuitiva e conectada ao uso real da linguagem.",
+    "objective": "O objetivo geral da oficina é proporcionar o primeiro contato com a linguagem C, permitindo que as participantes compreendam sua lógica, estrutura e aplicações básicas. Os objetivos específicos incluem apresentar o funcionamento de um compilador e o processo de tradução do código; ensinar o conceito de algoritmo por meio de exemplos do cotidiano; trabalhar a declaração e o uso de variáveis e tipos de dados; praticar operações básicas com entrada e saída usando *printf()* e *scanf()*; introduzir operadores aritméticos e lógicos; e demonstrar o uso da estrutura condicional *if else* na tomada de decisões dentro do programa. Ao final, espera-se que as participantes sejam capazes de escrever pequenos programas em C, interpretar erros simples e compreender a lógica essencial por trás da linguagem.",
+    "responsibles": [
+      "Lívia Câmara Xavier",
+      "Izabel Oliveira da Paz Chaves"
+    ],
+    "categories": ["Histórico da linguagem C", "Compilador", "Algoritmos", "C"],
+    "cover": "https://res.cloudinary.com/dxwbd9xhy/image/upload/q_auto/f_auto/v1777308402/LinguagemC-2025_1-Livia_tiud8v.jpg",
+    "images": [
+      "https://res.cloudinary.com/dxwbd9xhy/image/upload/q_auto/f_auto/v1777308367/LinguagemC-2025_1-Izabel_ptwdf2.jpg",
+      "https://res.cloudinary.com/dxwbd9xhy/image/upload/q_auto/f_auto/v1777308353/LinguagemC-2025_1_scdele.jpg",
+      "https://res.cloudinary.com/dxwbd9xhy/image/upload/q_auto/f_auto/v1777308402/LinguagemC-2025_1-Livia_tiud8v.jpg"
+    ]
+  },
+  {
+    "id": "design-interfaces",
+    "title": "Design de Interfaces",
+    "date": "18 de março de 2025",
+    "location": "Escola do Sebrae",
+    "description": "Esta oficina apresenta os princípios essenciais do design de interfaces, explorando como elementos visuais influenciam a experiência e o comportamento do usuário. A atividade aborda o papel das cores nas emoções, na organização da informação e na usabilidade, utiliza o círculo cromático para explicar combinações harmônicas e destaca regras práticas de composição, como o método 60-30-10 e o uso dos sistemas RGB e Hex. A oficina também introduz fundamentos de tipografia aplicados ao design digital, mostrando a importância da escolha adequada de fontes, hierarquia visual, entrelinha, legibilidade e o impacto do espaço em branco no layout. Além disso, é trabalhado o conceito de identidade visual, discutindo como cores, formas e tipografias constroem a percepção de uma marca. Para finalizar, as participantes têm um momento de prática utilizando o Figma, aplicando os conceitos aprendidos em uma interface simples.",
+    "objective": "O objetivo geral da oficina é capacitar as participantes a compreender e aplicar conceitos fundamentais de design de interfaces, desenvolvendo layouts mais organizados, atrativos e eficientes. Durante a atividade, busca-se apresentar o papel das cores na comunicação visual e no comportamento do usuário; ensinar como utilizar o círculo cromático para criar combinações coerentes; demonstrar sistemas de cores utilizados no ambiente digital; e orientar a construção de harmonia e contraste em interfaces. Os objetivos também incluem explicar os fundamentos da tipografia, como legibilidade, hierarquia textual e uso adequado de fontes, além de introduzir a importância da identidade visual para a construção de marcas fortes e reconhecíveis. Por fim, pretende-se que as participantes sintam-se capazes de aplicar esses conhecimentos em protótipos simples, desenvolvendo sensibilidade estética e pensamento crítico no design.",
+    "responsibles": [
+      "Bruna Furtado da Fonseca",
+      "Bruna Luiza Noely De Marco"
+    ],
+    "categories": ["Cores", "Círculo cromático", "RGB e Hex", "Tipografia", "Figma"],
+    "cover": "https://res.cloudinary.com/dxwbd9xhy/image/upload/q_auto/f_auto/v1777308556/DesignInterfaces-2025_1_nclfdg.jpg",
+    "images": [
+      "https://res.cloudinary.com/dxwbd9xhy/image/upload/q_auto/f_auto/v1777308556/DesignInterfaces-2025_1_nclfdg.jpg",
+      "https://res.cloudinary.com/dxwbd9xhy/image/upload/q_auto/f_auto/v1777308555/DesignInterfaces-2025_1-BrunaNoely_e02kon.jpg",
+      "https://res.cloudinary.com/dxwbd9xhy/image/upload/q_auto/f_auto/v1777308556/DesignInterfaces-2025_1-BrunaFurtado_ixlnxm.jpg"
+    ]
+  },
+  {
+    "id": "numeros-binarios",
+    "title": "Números Binários",
+    "date": "13 de março de 2025",
+    "location": "Escola do Sebrae",
+    "description": "Esta oficina apresenta, de maneira clara e dinâmica, os fundamentos do sistema binário, mostrando como os computadores utilizam apenas os dígitos 0 e 1 para representar informações. A proposta combina explicações teóricas com atividades práticas, passando pelo contexto histórico das primeiras máquinas, pelo conceito de bit como unidade básica de informação e pela forma como números e caracteres são codificados internamente. As participantes aprendem a realizar conversões entre decimal e binário, entendem o funcionamento da Tabela ASCII e têm um primeiro contato com o sistema hexadecimal. A oficina também inclui dinâmicas de decodificação e desafios numéricos, além da demonstração de conversões no Scratch, tornando o aprendizado mais visual, interativo e acessível.",
+    "objective": "O objetivo geral da oficina é permitir que as participantes compreendam como o sistema binário funciona e por que ele é a base da computação. Durante a atividade, busca-se apresentar o conceito de bit e sua importância, contextualizar historicamente o uso de sistemas de numeração nos computadores e demonstrar como números e caracteres são representados digitalmente. Além disso, a oficina pretende ensinar, de forma simples, processos de conversão entre decimal, binário e hexadecimal, incentivar o desenvolvimento do raciocínio lógico e aproximar as participantes da lógica computacional por meio de exercícios práticos, dinâmicas lúdicas e ferramentas acessíveis, como a calculadora do Windows e o Scratch. A proposta final é criar um ambiente acolhedor e motivador, no qual todas possam construir uma base sólida para entender conceitos essenciais da tecnologia.",
+    "responsibles": [
+      "Marcella Santos Belchior",
+      "Fernanda Soares Oliveira Cunha"
+    ],
+    "categories": ["Sistema Binário", "Tabela ASCII", "Sistema Hexadecimal", "Conversões"],
+    "cover": "https://res.cloudinary.com/dxwbd9xhy/image/upload/q_auto/f_auto/v1777308684/Binario-2025_1-Equipe_weokxi.jpg",
+    "images": [
+      "https://res.cloudinary.com/dxwbd9xhy/image/upload/q_auto/f_auto/v1777308684/Binario-2025_1-Equipe_weokxi.jpg",
+      "https://res.cloudinary.com/dxwbd9xhy/image/upload/q_auto/f_auto/v1777308685/Binario-2025_1-Marcella_cwdkl5.jpg",
+      "https://res.cloudinary.com/dxwbd9xhy/image/upload/q_auto/f_auto/v1777308686/Binario-2025_1-Turma_iag1rf.jpg"
+    ]
+  }
+]

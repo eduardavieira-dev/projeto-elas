@@ -5,11 +5,11 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --primary: oklch(0.205 0 0);
+  --primary: #BB047E;
   --primary-hover: #9B036B;
   --soft-primary: #FFCDE4;
   --pill-bg: #FFDFEE;
-  --background: oklch(1 0 0);
+  --footer: #06144B;
   --foreground: oklch(0.145 0 0);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
@@ -43,6 +43,12 @@
 }
 
 @theme inline {
+  --color-footer: var(--footer);
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-soft-primary: var(--soft-primary);
+  --color-pill-bg: var(--pill-bg);
+  --font-poppins: var(--font-poppins);
   --font-sans: var(--font-sans);
   --font-mono: var(--font-geist-mono);
   --font-heading: var(--font-sans);
@@ -70,7 +76,6 @@
   --color-secondary-foreground: var(--secondary-foreground);
   --color-secondary: var(--secondary);
   --color-primary-foreground: var(--primary-foreground);
-  --color-primary: var(--primary);
   --color-popover-foreground: var(--popover-foreground);
   --color-popover: var(--popover);
   --color-card-foreground: var(--card-foreground);
@@ -86,8 +91,17 @@
   --radius-4xl: calc(var(--radius) * 2.6);
 }
 
-h1, h2, h3 {
-  font-family: var(--font-poppins), sans-serif;
+
+body, html, .font-sans {
+  font-family: var(--font-inter), sans-serif;
+}
+h1, nav{
+  font-family: var(--font-poppins), var(--font-dm-sans), sans-serif;
+}
+
+h2, h3 {
+  font-family: var(--font-dm-sans), sans-serif;
+
 }
 
 .dark {

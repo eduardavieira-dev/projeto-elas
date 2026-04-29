@@ -1,13 +1,21 @@
 import type { Metadata } from 'next'
-import { Geist, Geist_Mono, Poppins, Inter } from 'next/font/google'
+import { Geist, Geist_Mono, Inter,Poppins, DM_Sans } from 'next/font/google'
 import './globals.css'
-import { cn } from "@/lib/utils";
-
-const inter = Inter({subsets:['latin'],variable:'--font-sans'});
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
   subsets: ['latin'],
+})
+
+const inter = Inter({
+  subsets: ['latin'],
+  variable: '--font-inter',
+})
+
+const dmSans = DM_Sans({
+  weight: ['600', '700'],
+  subsets: ['latin'],
+  variable: '--font-dm-sans',
 })
 
 const geistMono = Geist_Mono({
@@ -16,7 +24,7 @@ const geistMono = Geist_Mono({
 })
 
 const poppins = Poppins({
-  weight: ['600', '700'],
+  weight: ['400', '500', '600', '700'],
   subsets: ['latin'],
   variable: '--font-poppins',
 })
@@ -34,7 +42,7 @@ export default function RootLayout({
   return (
     <html
       lang="pt-BR"
-      className={cn("h-full", "antialiased", geistSans.variable, geistMono.variable, poppins.variable, "font-sans", inter.variable)}
+      className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} ${dmSans.variable} ${poppins.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col font-sans">{children}</body>
     </html>

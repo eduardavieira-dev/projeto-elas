@@ -1,0 +1,159 @@
+[
+  {
+    "username": "marcellasb28",
+    "name": "Marcella Belchior",
+    "role": "ex-membra",
+    "socialLinks": {
+      "instagram": "https://www.instagram.com/marcellabelchiorr/",
+      "linkedin": "https://www.linkedin.com/in/marcella-santos-belchior/"
+    }
+  },
+  {
+    "username": "Beatriz-Coura",
+    "name": "Beatriz Coura",
+    "role": "ex-membra",
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/in/beatriz-coura/"
+
+    }
+  },
+  {
+    "username": "eduardavieira-dev",
+    "name": "Eduarda Vieira",
+    "role": "membra",
+    "socialLinks": {
+      "instagram": "https://www.instagram.com/eduardavieira.dev/",
+      "linkedin": "https://www.linkedin.com/in/eduarda-vieira-gon%C3%A7alves-01a584297/",
+      "portfolio": "https://portfolio-eduardavieira.vercel.app/"
+    }
+  },
+  {
+    "username": "rainbowcrack",
+    "name": "Izabel Chaves",
+    "role": "membra",
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/in/izabel-chaves-034832284/"
+    }
+  },
+  {
+    "username": "lilianneps",
+    "name": "Lilianna Maia",
+    "role": "membra",
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/in/liliannemaia20101982/"
+    }
+  },
+  {
+    "username": "rayssamell",
+    "name": "Rayssa Mell",
+    "role": "membra",
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/in/rayssa-mell-692733289/"
+    }
+  },
+  {
+    "username": "brunademarco",
+    "name": "Bruna de Marco",
+    "role": "membra",
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/in/bruna-de-marco-68a70925a/"
+    }
+  },
+  {
+    "username": "cestpassion",
+    "name": "Bruna Furtado",
+    "role": "membra",
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/in/devbrunafurtado/"
+    }
+  },
+  {
+    "username": "SaraPasolini",
+    "name": "Sara Pasolini",
+    "role": "membra",
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/in/sara-pasolini/"
+    }
+  },
+  {
+    "username": "Marielacerda",
+    "name": "Maria Eduarda Lacerda",
+    "role": "membra",
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/in/mariaeduarda-r-lacerda/"
+    }
+  },
+  {
+    "username": "luizasampaio123",
+    "name": "Luiza Sampaio",
+    "role": "membra",
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/in/luiza-sampaio-ribeiro-07b66b25b/"
+    }
+  },
+  {
+    "username": "EuDudaf",
+    "name": "Maria Eduarda Ferreira",
+    "role": "membra",
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/in/mariaeduardafs/",
+      "instagram": "https://www.instagram.com/eu_dudafs/"
+    }
+  },
+  {
+    "username": "frndsv",
+    "name": "Sofia Silva",
+    "role": "membra",
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/in/sofia-silva-9bb194251/"
+    }
+  },
+  {
+    "username": "anaacsds",
+    "name": "Ana Clara Silva",
+    "role": "membra",
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/in/anaacsds/"
+    }
+  },
+  {
+    "username": "GeovannaCassia",
+    "name": "Geovanna Cassia",
+    "role": "membra",
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/in/geovanna-cassia/"
+    }
+  },
+  {
+    "username": "lore-camisx",
+    "name": "Lorrainny Camille",
+    "role": "membra",
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/in/lore-camis/"
+    }
+  },
+  {
+    "username": "lucianamfd",
+    "name": "Luciana Diniz",
+    "role": "coordenadora",
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/in/luciana-mara-freitas-diniz/"
+    }
+  },
+  {
+    "username": "amaliasvasconcelos",
+    "name": "Amália Vasconcelos",
+    "role": "coordenadora",
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/in/amaliavasconcelos/"
+    }
+  },
+  {
+    "username": "eilennss",
+    "name": "Letícia Duarte",
+    "role": "ex-membra",
+     "socialLinks": {
+      "linkedin": "https://www.linkedin.com/in/leticiaduartetech/"
+    }
+  }
+]

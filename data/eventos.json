@@ -1,0 +1,140 @@
+{
+  "eventos": [
+    {
+      "title": "Ada Lovelace Day",
+      "date": "10/10/2025",
+      "description": "Evento voltado à celebração do legado de Ada Lovelace e fortalecimento do protagonismo feminino na computação.",
+      "imageUrl": "https://res.cloudinary.com/dxwbd9xhy/image/upload/q_auto/f_auto/v1777313512/ada-lovelace-25_einryg.jpg",
+      "eventUrl": "#",
+      "location": "PUC Minas – Coração Eucarístico, Prédio 43, Auditório 3 (térreo)"
+    },
+    {
+      "title": "Maratona SBC de Programação",
+      "date": "13/09/2025",
+      "description": "Evento que desafiou o raciocínio lógico, o trabalho em equipe e muita dedicação. Fortalecendo ainda mais nossa união e protagonismo feminino na computação.",
+      "imageUrl": "https://res.cloudinary.com/dxwbd9xhy/image/upload/q_auto/f_auto/v1776365818/maratona-sbc-2025_uwz7ea.jpg",
+      "eventUrl": "#",
+      "location": "PUC Minas – Coração Eucarístico"
+    },
+    {
+      "title": "International Women's Day 2024",
+      "date": "09/03/2024",
+      "description": "Uma manhã dedicada ao avanço das mulheres na tecnologia em Belo Horizonte. Em parceria com as comunidades 'Tech Women' e '@Elas ++', preparamos um evento incrível com palestras inspiradoras e oportunidades de conexão.",
+      "imageUrl": "https://res.cloudinary.com/dxwbd9xhy/image/upload/q_auto/f_auto/v1776365212/iwd-2024_k6i0u9.jpg",
+      "eventUrl": "#",
+      "location": "PUC Minas - R. Dom José Gaspar, 500 - Coração Eucarístico, Belo Horizonte"
+    },
+    {
+      "title": "1º Encontro de Mulheres da Computação",
+      "date": "19/11/2024",
+      "description": "No dia 19/11/2024, o CEFET-MG, Campus Nova Gameleira, foi palco de um evento especial promovido pelos projetos de extensão Elas.net (CEFET-BH) e Elas++ (PUC Minas) e pelo curso de Engenharia de Software (PUC Minas).",
+      "imageUrl": "https://res.cloudinary.com/dxwbd9xhy/image/upload/q_auto/f_auto/v1776365637/encontro-mulheres-comp-2024_ca6dza.jpg",
+      "eventUrl": "#",
+      "location": "CEFET-BH"
+    },
+    {
+      "title": "International Women's Day 2025",
+      "date": "15/03/2025",
+      "description": "O IWD Belo Horizonte reuniu quase 300 mulheres presencialmente e um público online apaixonado por tecnologia, para celebrar o Dia Internacional das Mulheres com palestras incríveis, networking e muito aprendizado.",
+      "imageUrl": "https://res.cloudinary.com/dxwbd9xhy/image/upload/q_auto/f_auto/v1776365078/iwd-2025_wpddit.jpg",
+      "eventUrl": "#",
+      "location": "PUC Minas - R. Dom José Gaspar, 500 - Coração Eucarístico, Belo Horizonte"
+    },
+    {
+      "title": "PUC Betim Portas Abertas 2025",
+      "date": "17/05/2025",
+      "description": "As extensionistas do campus Betim, Sara Pasolini e Maria Eduarda, participaram ativamente das atividades, além da aluna Beatriz, do campus Contagem, que também contribuiu com sua expertise!",
+      "imageUrl": "https://res.cloudinary.com/dxwbd9xhy/image/upload/q_auto/f_auto/v1776365410/puc-betim-portas-abertas_xcyusc.jpg",
+      "eventUrl": "#",
+      "location": "PUC Betim"
+    },
+    {
+      "title": "COMP Software Day",
+      "date": "21/03/2025",
+      "description": "Evento realizado no Teatro São João Paulo II, na PUC Minas Coração Eucarístico, organizado pelos integrantes da COMP, Empresa Júnior do curso de Ciência da Computação.",
+      "imageUrl": "https://res.cloudinary.com/dxwbd9xhy/image/upload/q_auto/f_auto/v1776365719/comp-soft-day_fu4egm.jpg",
+      "eventUrl": "#",
+      "location": "PUC Minas – Coração Eucarístico"
+    },
+    {
+      "title": "PUC Aberta 2025 - Coreu",
+      "date": "06/05/2025",
+      "description": "Nosso projeto marcou presença em diversos campi da PUC durante o PUC Aberta 2025, com feira de cursos, oficinas e palestras. Uma grande oportunidade para inspirar mais mulheres a explorarem o universo da tecnologia!",
+      "imageUrl": "https://res.cloudinary.com/dxwbd9xhy/image/upload/q_auto/f_auto/v1776365705/puc-aberta-coreu-2025_aknwwx.png",
+      "eventUrl": "#",
+      "location": "PUC Minas - Coração Eucarístico"
+    },
+    {
+      "title": "PUC Aberta 2025 - Contagem ",
+      "date": "21/05/2025",
+      "description": "Participação das integrantes do projeto no PUC Aberta 2025, apresentando oficinas, palestras e interações com futuras alunas.",
+      "imageUrl": "https://res.cloudinary.com/dxwbd9xhy/image/upload/q_auto/f_auto/v1776365409/puc-aberta-contagem-2025_gm0wvk.png",
+      "eventUrl": "#",
+      "location": "PUC Minas Contagem"
+    },
+    {
+      "title": "PUC Aberta 2025 - Lourdes",
+      "date": "28/05/2025",
+      "description": "Participação ativa das integrantes do projeto no PUC Aberta 2025, inspirando mulheres a explorarem a área de tecnologia.",
+      "imageUrl": "https://res.cloudinary.com/dxwbd9xhy/image/upload/q_auto/f_auto/v1776365310/puc-aberta-lourdes-2025_azszfg.png",
+      "eventUrl": "#",
+      "location": "PUC Minas Lourdes"
+    },
+    {
+      "title": "Congresso da Sociedade Brasileira de Computação (CSBC 2025)",
+      "date": "20/07/2025",
+      "description": "O projeto ELAS++ marcou presença no XLV Congresso da Sociedade Brasileira de Computação (CSBC 2025), em Maceió, com artigo publicado e apresentado no XIX Women in Information Technology (WIT 2025).",
+      "imageUrl": "https://i.postimg.cc/zG7JDPkq/image.png",
+      "eventUrl": "#",
+      "location": "Maceió, Alagoas"
+    },
+    {
+      "title": "Roda de conversa Contagem",
+      "date": "27/05/2025",
+      "description": "Com o tema 'Se eu não souber, eu aprendo' as rodas de conversa realizadas presencialmente na PUC Minas no primeiro semestre de 2025, reuniu alunas dos cursos de tecnologia e promoveu vínculos acadêmicos e profissionais.",
+      "imageUrl": "https://i.postimg.cc/43p8Fhw0/imageUrl-do-Whats-App-de-2025-11-27-a(s)-17-45-59-4e86ab38.jpg",
+      "eventUrl": "#",
+      "location": "PUC Minas Contagem"
+    },
+    {
+      "title": "Roda de conversa Betim",
+      "date": "28/05/2025",
+      "description": "Com o tema 'Se eu não souber, eu aprendo' as rodas de conversa realizadas presencialmente na PUC Minas no primeiro semestre de 2025, reuniu alunas dos cursos de tecnologia e promoveu vínculos acadêmicos e profissionais.",
+      "imageUrl": "https://res.cloudinary.com/dxwbd9xhy/image/upload/q_auto/f_auto/v1776365999/roda-conversa-betim-2025_bqvdqu.jpg",
+      "eventUrl": "#",
+      "location": "PUC Minas Betim"
+    },
+    {
+      "title": "PUC Aberta 2025 - Betim",
+      "date": "15/05/2025",
+      "description": "Participação ativa das integrantes do projeto no PUC Aberta 2025, inspirando mulheres a explorarem a área de tecnologia.",
+      "imageUrl": "https://res.cloudinary.com/dxwbd9xhy/image/upload/q_auto/f_auto/v1776365703/puc-aberta-betim-2025_dzbjh1.jpg",
+      "eventUrl": "#",
+      "location": "PUC Minas Betim"
+    },
+    {
+      "title": "Primeira Roda de Conversa PUC Betim",
+      "date": "28/04/2025",
+      "description": " Reunindo mulheres que estão trilhando seus caminhos na área da tecnologia. Foi um momento de troca, acolhimento e conexão.",
+      "imageUrl": "https://res.cloudinary.com/dxwbd9xhy/image/upload/q_auto/f_auto/v1776367381/PHOTO-2026-04-16-16-20-54_wnuljo.jpg",
+      "eventUrl": "#",
+      "location": "PUC Minas Betim"
+    },
+    {
+      "title": "Primeira Roda de Conversa PUC Contagem",
+      "date": "28/04/2025",
+      "description": " Reunindo mulheres que estão trilhando seus caminhos na área da tecnologia. Foi um momento de troca, acolhimento e conexão.",
+      "imageUrl": "https://res.cloudinary.com/dxwbd9xhy/image/upload/q_auto/f_auto/v1776365997/roda-conversa-contagem_nvq60x.jpg",
+      "eventUrl": "#",
+      "location": "PUC Minas Contagem"
+    },
+    {
+      "title": "International Women's Day 2026",
+      "date": "14/03/2026",
+      "description": "O IWD Belo Horizonte reuniu mulheres apaixonadas por tecnologia para celebrar o Dia Internacional das Mulheres com palestras inspiradoras, networking e muito aprendizado.",
+      "imageUrl": "https://res.cloudinary.com/dxwbd9xhy/image/upload/q_auto/f_auto/v1776364512/iwd-elas_ptmmhm.jpg",
+      "eventUrl": "#",
+      "location": "PUC Minas - Coração Eucarístico"
+    }
+  ]
+}
