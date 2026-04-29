@@ -10,7 +10,7 @@ export function Navbar() {
   return (
     <nav className="sticky top-0 z-50 bg-primary py-4">
       <div className="container mx-auto px-4 md:px-16 flex items-center justify-between text-white font-medium">
-        <Link href="/" className="w-22">
+        <Link href="/" className="w-26">
           <img src="/elas.svg" alt="Logo Elas++" />
         </Link>
         <div className="hidden md:flex gap-6 items-center">
