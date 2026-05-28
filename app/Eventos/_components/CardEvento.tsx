@@ -35,7 +35,7 @@ export function CardEvento(props: CardEventoProps) {
               ;(e.currentTarget as HTMLDivElement).click()
             }
           }}
-          className="bg-card text-card-foreground rounded-lg border border-neutral-200 w-full max-w-md cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/30"
+          className="bg-card text-card-foreground rounded-lg border border-neutral-200 w-full max-w-md cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/30 hover:scale-101 ease-in-out duration-200 hover:shadow-lg"
         >
           <img
             src={props.imageUrl}

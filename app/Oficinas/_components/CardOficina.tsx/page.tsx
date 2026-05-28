@@ -24,7 +24,7 @@ export function CardOficina({
   const router = useRouter()
 
   return (
-    <div className="bg-card rounded-lg border border-neutral-200 w-full max-w-md">
+    <div className="bg-card rounded-lg border border-neutral-200 w-full max-w-md hover:scale-101 ease-in-out duration-200 cursor-pointer hover:shadow-lg" onClick={() => router.push(`/Oficinas/${id}`)}>
       <img
         src={cover}
         className="w-full h-50 object-cover rounded-t-md"

@@ -1,163 +1,269 @@
 'use client'
-import Link from 'next/dist/client/link'
-import Image from 'next/image'
+
+import Link from 'next/link'
+import {
+  ArrowRight,
+  Code,
+  UsersThree,
+  Heart,
+  MailboxIcon,
+  DesktopIcon,
+} from '@phosphor-icons/react'
+
 import { Footer } from './components/Footer'
-import { Apoiadores } from './components/Apoiadores'
 import { Navbar } from './components/Navbar'
-import { ArrowRightIcon } from '@phosphor-icons/react'
+import { Apoiadores } from './components/Apoiadores'
+import { MailIcon } from 'lucide-react'
 
 export default function Home() {
+  const valores = [
+  'Inclusão',
+  'Representatividade',
+  'Comunidade',
+  'Inovação',
+  'Tecnologia',
+  'Diversidade',
+  'Educação',
+  'Criatividade',
+  'Futuro',
+]
   return (
     <div>
       <Navbar />
-      <div className="px-4 py-8 pt-2 bg-primary text-white">
-        <section className="flex flex-col max-w-6xl md:flex-row items-center gap-8 mx-auto my-12">
-          <div className="p-5 md:p-1">
-            <h1 className="text-4xl  font-poppins font-extrabold mb-6">Elas++</h1>
+
+      <div className="overflow-hidden bg-white">
+          <section className="bg-primary text-white overflow-hidden">
+          <div className="max-w-7xl mx-auto px-6 py-16 md:py-24">
+            <div className="grid md:grid-cols-2 gap-14 md:gap-20 items-center">
+              <div className="text-center md:text-left max-w-xl">
+                <h1 className="md:text-5xl  text-4xl font-poppins font-extrabold mb-6">Elas++</h1>
             <p className="mb-6 text-lg">
               O Elas++ é um projeto de extensão universitária da PUC Minas que visa aumentar a
               participação feminina na área de tecnologia.
             </p>
-            <div className="relative inline-block">
-              <div className="absolute inset-0 bg-white rounded-sm translate-x-1 translate-y-1"></div>
-              <a
-                href="/Sobre"
-                className="relative font-semibold border border-white py-2 px-4 rounded-sm hover:translate-x-1 hover:translate-y-1 ease-in-out  duration-200 bg-primary block"
-              >
-                Conheça nosso trabalho
-              </a>
+
+                <div className="mt-8 flex flex-row gap-4 justify-center md:justify-start">
+                  <Link
+                    href="/Sobre"
+                    className="group bg-white text-primary font-semibold px-6 py-3 rounded-2xl hover:opacity-90 transition-all duration-300 flex items-center justify-center gap-2"
+                  >
+                    Conheça o projeto
+                    <ArrowRight
+                      size={18}
+                      className="transition-transform duration-300 group-hover:translate-x-1"
+                    />
+                  </Link>
+
+                  <Link
+                    href="/Oficinas"
+                    className="border text-white border-gray-300/40 bg-gray-300/10 backdrop-blur-sm px-6 py-3 rounded-2xl font-medium hover:bg-gray-300/20 transition-all duration-300"
+                  >
+                    Ver oficinas
+                  </Link>
+                </div>
+
+                {/* MÉTRICAS */}
+                <div className="grid grid-cols-3 gap-4 mt-10 max-w-md mx-auto md:mx-0">
+                  <div className="bg-gray-300/10 border border-gray-300/30 rounded-2xl p-4 text-center">
+                    <h3 className="text-2xl font-bold">+20</h3>
+                    <p className="text-xs  mt-1">Participantes</p>
+                  </div>
+
+                  <div className="bg-gray-300/10 border border-gray-300/30 rounded-2xl p-4 text-center">
+                    <h3 className="text-2xl font-bold">10+</h3>
+                    <p className="text-xs  mt-1">Rodas de conversa</p>
+                  </div>
+
+                  <div className="bg-gray-300/10 border border-gray-300/30 rounded-2xl p-4 text-center">
+                    <h3 className="text-2xl font-bold">100%</h3>
+                    <p className="text-xs  mt-1">Inclusão</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="relative">
+                <div className="backdrop-blur-sm rounded-lg overflow-hidden border border-white/20 shadow-lg">
+                  <img src="elas.jpg" alt="Projeto Elas++" className="w-full h-full object-cover" />
+                </div>
+              </div>
             </div>
           </div>
-          <img src="elas.jpg" alt="" className="w-full rounded-xl px-6 md:w-120 md:px-1" />
         </section>
+
+        {/* VALORES */}
+
+
+<section className="relative overflow-hidden border-y border-pink-100 bg-pink-50 py-5">
+
+  {/* fade lateral */}
+  <div className="absolute left-0 top-0 z-10 h-full w-20 bg-gradient-to-r from-pink-50 to-transparent" />
+
+  <div className="absolute right-0 top-0 z-10 h-full w-20 bg-gradient-to-l from-pink-50 to-transparent" />
+
+  <div className="marquee-track">
+    {[...valores, ...valores].map((item, index) => (
+      <span
+        key={index}
+        className="shrink-0 text-sm font-semibold uppercase tracking-widest text-pink-500 md:text-base"
+      >
+        {item}
+      </span>
+    ))}
+  </div>
+</section>
+
+        {/* SOBRE */}
+        <section className="mx-auto max-w-6xl px-6 py-24">
+          <div className="grid items-center gap-14 md:grid-cols-2">
+            <div>
+              <span className="font-semibold uppercase tracking-[0.25em] text-pink-500">
+                Sobre o projeto
+              </span>
+
+              <h2 className="mt-4 text-4xl font-black leading-tight text-gray-800 md:text-5xl">
+                Criando oportunidades
+                <span className="block text-pink-500">para mulheres na tecnologia.</span>
+              </h2>
+
+              <p className="mt-6 text-lg leading-relaxed text-gray-600">
+                O Elas++ nasceu para mostrar que a tecnologia também pertence às mulheres. Nosso
+                objetivo é inspirar meninas através de experiências práticas, oficinas e conexões
+                reais com o universo tech.
+              </p>
+
+              <p className="mt-4 text-lg leading-relaxed text-gray-600">
+                Construímos um ambiente acolhedor, criativo e colaborativo onde cada participante
+                pode aprender, crescer e descobrir novas possibilidades para o futuro.
+              </p>
+            </div>
+
+            <div className="grid gap-5">
+              <div className="group rounded-3xl border border-pink-100 bg-white p-7 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
+                <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-lg bg-pink-100 text-pink-500">
+                  <Code size={24} weight="fill" />
+                </div>
+
+                <h3 className="text-2xl font-bold text-gray-800">Oficinas práticas</h3>
+
+                <p className="mt-3 leading-relaxed text-gray-600">
+                  Atividades mão na massa que aproximam meninas do desenvolvimento, design,
+                  programação e inovação.
+                </p>
+              </div>
+
+              <div className="group rounded-3xl border border-pink-100 bg-white p-7 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
+                <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-lg bg-pink-100 text-pink-500">
+                  <UsersThree size={24} weight="fill" />
+                </div>
+
+                <h3 className="text-2xl font-bold text-gray-800">Comunidade acolhedora</h3>
+
+                <p className="mt-3 leading-relaxed text-gray-600">
+                  Criamos conexões, compartilhamos experiências e fortalecemos a presença feminina
+                  no universo tech.
+                </p>
+              </div>
+
+              <div className="group rounded-3xl border border-pink-100 bg-white p-7 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
+                <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-lg bg-pink-100 text-pink-500">
+                  <Heart size={24} weight="fill" />
+                </div>
+
+                <h3 className="text-2xl font-bold text-gray-800">Impacto social</h3>
+
+                <p className="mt-3 leading-relaxed text-gray-600">
+                  Promovemos inclusão, representatividade e acesso à tecnologia de forma humana e
+                  transformadora.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* CONTATO */}
+        <section className="px-6 pb-24">
+          <div className="max-w-5xl mx-auto bg-pink-50 border border-pink-100 rounded-[2rem] p-8 md:p-12">
+            <div className="text-center">
+              <span className="text-sm font-semibold uppercase tracking-[0.25em] text-pink-500">
+                Entre em contato
+              </span>
+
+              <h2 className="mt-4 text-3xl md:text-4xl font-black text-gray-800">
+                Faça parte do Elas++
+              </h2>
+
+              <p className="mt-4 text-gray-600 max-w-2xl mx-auto leading-relaxed">
+                Quer participar das nossas iniciativas, apoiar o projeto ou conversar com a equipe?
+                Vamos adorar falar com você.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-5 mt-10">
+              {/* EMAIL */}
+              <a
+                href="mailto:elaspucm@gmail.com"
+                className="group bg-white rounded-3xl p-6 border border-pink-100 hover:-translate-y-1 transition-all duration-300"
+              >
+                <div className="w-12 h-12 rounded-lg bg-pink-100 text-pink-500 flex items-center justify-center">
+                  <MailboxIcon size={22} weight="fill" />
+                </div>
+
+                <h3 className="mt-5 text-xl font-bold text-gray-800">E-mail</h3>
+
+                <p className="mt-2 text-gray-600 text-sm">
+                  Entre em contato diretamente com nossa equipe.
+                </p>
+
+                <span className="mt-4 inline-block text-primary font-semibold transition-transform">
+                  elaspucm@gmail.com
+                </span>
+              </a>
+
+              {/* EVENTOS */}
+              <Link
+                href="/Eventos"
+                className="group bg-white rounded-3xl p-6 border border-pink-100 hover:-translate-y-1 transition-all duration-300"
+              >
+                <div className="w-12 h-12 rounded-lg bg-pink-100 text-pink-500 flex items-center justify-center">
+                  <DesktopIcon size={22} weight="fill" />
+                </div>
+
+                <h3 className="mt-5 text-xl font-bold text-gray-800">Eventos Tech</h3>
+
+                <p className="mt-2 text-gray-600 text-sm">
+                  Conheça nossas atividades e eventos voltados para tecnologia.
+                </p>
+
+                <span className="mt-4 inline-block text-primary font-semibold transition-transform">
+                  Explorar eventos
+                </span>
+              </Link>
+
+              {/* COMUNIDADE */}
+              <Link
+                href="/Sobre"
+                className="group bg-white rounded-3xl p-6 border border-pink-100 hover:-translate-y-1 transition-all duration-300"
+              >
+                <div className="w-12 h-12 rounded-lg bg-pink-100 text-pink-500 flex items-center justify-center">
+                  <UsersThree size={22} weight="fill" />
+                </div>
+
+                <h3 className="mt-5 text-xl font-bold text-gray-800">Comunidade</h3>
+
+                <p className="mt-2 text-gray-600 text-sm">
+                  Saiba mais sobre o projeto e nossa missão dentro da tecnologia.
+                </p>
+
+                <span className="mt-4 inline-block text-primary font-semibold transition-transform">
+                  Conhecer projeto
+                </span>
+              </Link>
+            </div>
+          </div>
+        </section>
+        <Apoiadores />
+
+        <Footer />
       </div>
-      <section className="bg-pink-200 p-5 md:p-4">
-        <ul className="justify-evenly flex text-pink-400/60 font-bold flex-wrap gap-4 px-8 text-md md:text-lg lg:text-xl">
-          <li>Reconhecimento</li>
-          <li>Inclusão</li>
-          <li>Igualdade</li>
-          <li>Representatividade</li>
-        </ul>
-      </section>
-      <section className="flex flex-col justify-center text-center gap-4 max-w-3xl mx-auto p-5 my-8">
-        <h2 className="text-2xl md:text-3xl font-bold text-center">O que é o Elas++?</h2>
-        <p className="text-md font-light">
-          Nosso projeto é dedicado a transformar a maneira como as meninas enxergam e se envolvem
-          com o universo da tecnologia.
-        </p>
-        <p className="text-md font-light">
-          Estamos aqui para desmistificar o mundo da TI e mostrar que ele é um espaço para todas,
-          independentemente de idade, origem ou experiência prévia.
-        </p>
-      </section>
-      <hr className="border-t-.5 border-neutral-300 w-full max-w-sm sm:max-w-xl md:max-w-3xl lg:max-w-5xl mx-auto my-8" />
-
-      <section className="flex flex-col md:flex-row justify-center text-center md:text-left gap-8 max-w-6xl mx-auto p-5 my-8">
-        <div className="flex flex-col gap-4">
-          <h2 className="text-2xl md:text-3xl font-bold">Nossa Missão</h2>
-          <p>
-            Nossa missão é empoderar e inspirar meninas a explorar e se apaixonar por áreas como
-            programação, desenvolvimento de software, ciência de dados e muito mais.
-          </p>
-          <p>
-            Através de oficinas interativas, tutoriais passo a passo e uma comunidade acolhedora,
-            oferecemos as ferramentas e o suporte necessários para que cada participante possa
-            desenvolver suas habilidades, ganhar confiança e descobrir novas oportunidades.
-          </p>
-          <p>
-            Vamos juntas nessa jornada para criar um futuro onde a presença feminina na TI seja a
-            regra, não a exceção!
-          </p>
-        </div>
-        <img src="capa-linkedin.svg" className="p-8 md:p-1" alt="" />
-      </section>
-
-      <section className="bg-soft-primary/40 p-5 md:p-8">
-        <div className="mx-auto grid max-w-5xl gap-6 rounded-2xl border border-primary/15 bg-white/85 p-6 md:grid-cols-[1.2fr_0.8fr] md:p-10">
-          <div className="flex flex-col text-center md:text-left">
-            <h2 className="text-2xl font-extrabold leading-tight text-pink-600/80 md:text-3xl">
-              Sobre Nós
-            </h2>
-
-            <p className="mt-4 text-base leading-relaxed text-slate-700 md:text-lg">
-              Somos uma equipe apaixonada por tecnologia e por promover a diversidade no setor.
-              Através de nossas oficinas, eventos e publicações, trabalhamos para criar
-              oportunidades e derrubar barreiras que impedem a participação plena das mulheres na
-              tecnologia.
-            </p>
-
-            <p className="mt-3 text-base leading-relaxed text-slate-700 md:text-lg">
-              Desenvolvemos projetos inovadores, realizamos pesquisas relevantes e criamos redes de
-              apoio que fortalecem a comunidade feminina tech.
-            </p>
-
-            <div className="mt-7 flex justify-center md:justify-start">
-              <div className="relative inline-block w-full max-w-xs justify-center">
-                <div className="absolute inset-0 bg-pink-500/40 rounded-sm translate-x-1 translate-y-1"></div>
-                <a
-                  href="/Sobre"
-                  className="text-pink-500/80 relative text-center font-semibold border border-pink-300/80 py-2 px-4 rounded-sm hover:translate-x-1 hover:translate-y-1 ease-in-out  duration-200 bg-pink-50 block"
-                >
-                  Conheça nossa história
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="grid items-start gap-3 sm:grid-cols-2 md:grid-cols-1">
-            <div className="relative self-start h-fit">
-              <div className="absolute inset-0 z-0 rounded-xl bg-pink-500/20 translate-x-1 translate-y-1"></div>
-              <div className="relative z-10 rounded-xl border border-primary/20 bg-white p-4 text-left">
-                <p className="font-semibold text-pink-600/80">Oficinas práticas</p>
-                <p className="mt-1 text-sm text-slate-600">
-                  Atividades mão na massa para aproximar mais mulheres da tecnologia.
-                </p>
-              </div>
-            </div>
-            <div className="relative self-start h-fit">
-              <div className="absolute inset-0 z-0 rounded-xl bg-pink-500/20 translate-x-1 translate-y-1"></div>
-              <div className="relative z-10 rounded-xl border border-primary/20 bg-white p-4 text-left">
-                <p className="font-semibold text-pink-600/80">Eventos e conexão</p>
-                <p className="mt-1 text-sm text-slate-600">
-                  Encontros que criam troca real de experiências e ampliam oportunidades.
-                </p>
-              </div>
-            </div>
-            <div className="relative self-start h-fit sm:col-span-2 md:col-span-1">
-              <div className="absolute inset-0 z-0 rounded-xl bg-pink-500/20 translate-x-1 translate-y-1"></div>
-              <div className="relative z-10 rounded-xl border border-pink-200 bg-white p-4 text-left">
-                <p className="font-semibold text-pink-600/80">Pesquisa e impacto</p>
-                <p className="mt-1 text-sm text-slate-600">
-                  Produção de conteúdo e iniciativas que fortalecem a comunidade feminina tech.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <Apoiadores />
-
-      {/*
-      <section className=" flex flex-col gap-4 max-w-5xl mx-auto p-5 text-center">
-        <h2 className="text-2xl font-bold">Junte-se a nós</h2>
-        <p>
-          Quer fazer parte desta transformação? Entre em contato conosco e descubra como você pode
-          participar ou contribuir com o Elas++.
-        </p>
-        <div className="flex mx-auto">
-          <div className="relative inline-block  max-auto w-50">
-            <div className="absolute inset-0 bg-pink-400/90 rounded-sm translate-x-1 translate-y-1"></div>
-            <a
-              href="mailto:elaspucm@gmail.com"
-              className="relative text-pink-500 font-semibold border border-pink-400/90 py-2 px-4 rounded-sm hover:translate-x-1 hover:translate-y-1 ease-in-out  duration-200 bg-white block"
-            >
-              Entrar em contato
-            </a>
-          </div>
-        </div>
-      </section>
-      */}
-      <Footer />
     </div>
   )
 }

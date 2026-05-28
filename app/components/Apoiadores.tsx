@@ -1,6 +1,6 @@
 export function Apoiadores() {
   return (
-    <div className="py-12 flex flex-col mx-auto justify-center items-center gap-8 max-w-6xl px-5 md:px-3">
+    <div className="py-8 flex pt-2 flex-col mx-auto justify-center items-center gap-8 max-w-6xl px-5 md:px-3">
       <h2 className="text-center text-2xl md:text-3xl font-bold">Nossos Apoiadores</h2>
       <div id="empresas" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-auto px-5 md:p-2 items-stretch justify-center">
         <div className="max-w-md w-full h-full flex flex-col bg-soft-primary/50 border border-soft-primary rounded-md">

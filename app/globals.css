@@ -149,3 +149,31 @@ h2, h3 {
     @apply font-sans;
   }
 }
+/* globals.css */
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: #ec4899;
+  color: white;
+}
+
+.marquee-track {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  width: max-content;
+  animation: marquee 25s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}

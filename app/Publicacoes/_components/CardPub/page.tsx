@@ -31,7 +31,7 @@ export function CardPub({ type, title, team, date, description, tags, link }: Ca
               ;(e.currentTarget as HTMLDivElement).click()
             }
           }}
-          className="flex h-full flex-col rounded-lg border border-neutral-300 p-4 cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/30"
+          className="flex h-full flex-col rounded-lg border border-neutral-300 p-4 cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/30 hover:scale-101 ease-in-out duration-200 hover:shadow-lg"
         >
           <div className="flex items-center justify-between mb-2">
             <div className="flex gap-2">
