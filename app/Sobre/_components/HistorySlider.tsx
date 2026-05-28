@@ -17,7 +17,7 @@ const historySlides: HistorySlide[] = [
     date: 'Agosto 2022',
     description:
       'Criado em 2022 pela professora Luciana Diniz, o projeto Elas++ com carater extensionista e intermitente decorre da necessidade de despertar o interesse de mais e mais mulheres para a area de tecnologia, informatica e computacao na cidade de Belo Horizonte e regiao.',
-    imageUrl: 'https://elasmaismais.icei.pucminas.br/images/foto7.jpg',
+    imageUrl: 'https://res.cloudinary.com/dxwbd9xhy/image/upload/v1779991168/4aa11e76-885d-425a-9793-c3a39b81c3c6.png',
     imageAlt: 'Fundacao do projeto Elas++',
   },
   {
