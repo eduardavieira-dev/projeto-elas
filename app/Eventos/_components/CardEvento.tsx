@@ -1,4 +1,6 @@
 'use client'
+
+import Image from 'next/image'
 interface CardEventoProps {
   title: string
   date: string
@@ -37,10 +39,10 @@ export function CardEvento(props: CardEventoProps) {
           }}
           className="bg-card text-card-foreground rounded-lg border border-neutral-200 w-full max-w-md cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/30 hover:scale-101 ease-in-out duration-200 hover:shadow-lg"
         >
-          <img
+          <Image
             src={props.imageUrl}
             alt={`foto do evento ${props.title}`}
-            className="w-full h-50 object-cover object-center rounded-t-md"
+            className="w-full h-50 object-cover object-center rounded-t-md" width={400} height={200}
           />
           <div className="p-4">
             <h3 className="text-lg font-semibold mb-2" id="event-title">
@@ -87,10 +89,10 @@ export function CardEvento(props: CardEventoProps) {
         </DialogHeader>
 
         <div className="mt-4 space-y-3">
-          <img
+          <Image
             src={props.imageUrl}
             alt={`foto do evento ${props.title}`}
-            className="w-full max-h-[60vh] rounded-md object-contain bg-neutral-50"
+            className="w-full max-h-[60vh] rounded-md object-contain bg-neutral-50" width={600} height={400}
           />
 
           <div className="flex flex-col gap-2 text-sm text-neutral-700">

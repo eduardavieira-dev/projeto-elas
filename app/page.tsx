@@ -9,11 +9,11 @@ import {
   MailboxIcon,
   DesktopIcon,
 } from '@phosphor-icons/react'
+import Image from 'next/image'
 
 import { Footer } from './components/Footer'
 import { Navbar } from './components/Navbar'
 import { Apoiadores } from './components/Apoiadores'
-import { MailIcon } from 'lucide-react'
 
 export default function Home() {
   const valores = [
@@ -83,7 +83,7 @@ export default function Home() {
 
               <div className="relative">
                 <div className="backdrop-blur-sm rounded-lg overflow-hidden border border-white/20 shadow-lg">
-                  <img src="elas.jpg" alt="Projeto Elas++" className="w-full h-full object-cover" />
+                  <Image src="/elas.jpg" alt="Projeto Elas++" className="w-full h-full object-cover" width={500} height={300} />
                 </div>
               </div>
             </div>
